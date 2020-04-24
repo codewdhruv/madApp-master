@@ -1,0 +1,153 @@
+body{
+	background: #fff;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.madlib-container
+{
+	margin: 50px auto;
+	border: 1px solid;
+	width: 1000px;
+	overflow: auto;
+}
+
+.smiley 
+{
+	float: left;
+	padding: 10px 30px;
+	border: 1px solid;
+	width: 136px;
+}
+
+.smiley img {
+	height: 142px;
+}
+
+.logo
+{
+	float: right;
+	padding: 10px 10px;
+	border: 1px solid;
+	text-align: center;
+	width: 780px;
+
+}
+
+.logo img {
+
+	height: 65px;
+}
+
+h1 {
+	display: block;
+	margin: 5px auto;
+	font-weight: normal;
+	font-size: 3.5em;
+}
+
+button {
+	color: #fff;
+	background-color: black;
+
+	display: inline-block;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+}
+
+.words 
+{
+	border: 1px solid;
+	padding: 10px 100px;
+	clear: both;
+	overflow: auto;
+	text-align: center;
+}
+
+.words button 
+{
+	float: right;
+	margin-right: 45px;
+}
+
+.word
+{
+ 	color: #8f1133 ;
+ 	text-decoration: underline
+}
+
+.results 
+{
+	border: 1px solid;
+	padding: 10px 100px;
+	clear: both;
+	font-size: 1.5em;
+}
+
+.input1
+{
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.input1 p 
+{
+	margin-left: 20px;
+	color: #A80C0C;
+}
+
+.input2
+{
+	float: right;
+	width: 50%;
+	text-align: left;
+}
+
+ input {
+	display: block;
+	width: 70%;
+	margin:20px 20px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.input2 input {
+	display: block;
+	margin:20px auto;
+}
+
+.input2 p 
+{
+	margin-left: 47px;
+	color: #A80C0C;
+}
+
+.fade {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  opacity: 0.0;
+}
+
+.fadeIn {
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -o-transition: 2s;
+  opacity: 1.0;
+}
